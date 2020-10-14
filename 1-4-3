@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+class U1_L4_Activity_Three {
+  public static void main(String[] args) {
+    
+     Scanner scan = new Scanner(System.in);
+    System.out.println("Enter a radius : ");
+    double x = scan.nextDouble();
+    x= 2*3.14*x;   
+    System.out.println("Circumference: " + x);
+    x= x/6.28;
+    x=3.14*x*x;
+    System.out.println("Area: " + x);
+    
+  }
+}
