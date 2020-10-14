@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+class U1_L3_Activity_Two {
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    
+    System.out.println("Hi there. What is your name?");
+    String n = scan.nextLine();
+    System.out.println("Hi " + n + ". How old are you?");
+    int a = scan.nextInt();
+    System.out.print(n + " is " + a + " years old. ");
+  }
+}
